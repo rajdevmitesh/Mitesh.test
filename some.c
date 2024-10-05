@@ -70,20 +70,127 @@ int main()
         
              return 0;
 
-    
+     
 
     int marks;
     printf("enter Your Marks");
     scanf("%d",&marks);
-    if(marks>30)
+
+   if(marks<30)
     {
-        printf("Student is Pass");
+        printf(" c \n");
     }
+     else if (marks >= 30 && marks < 70)
+     {
+        printf(" B \n");
+     }
+     else if (marks >= 70 && marks < 90 )
+     {
+        printf(" A \n");
+     }
+      else if (marks >= 90 && marks < 100)
+      {
+        printf("A+ \n");
+      }
 
     else
     {
         printf("student is fail");
     }
-*/ 
+
+     
+
+    // TURNARY OPRATOR
+   // marks > 30 && marks != 0 ? printf ("Pass\n") : printf ("Fail\n");
+
+
+
+   int number;
+
+   printf("Enter Number");
+   scanf("%d",&number);
+
+    if (number % 2 == 0 )
+
+    printf("This is Natural Number");
+
+    else 
+
+    printf("this is not Natural Number");
+
+
+
+        int n;
+            printf("Enter a Number");
+            scanf("%d",&n);
+
+            int sum =0;
+         for (int i=0;i<=n; i++)
+         {
+            sum = sum+i;
+            printf("%d\n",sum);
+         }
+    
+        int user;
+        printf("Give a number :");
+        scanf("%d",&user);
+
+         if (user % 7==0)
+
+         printf("it is multiply of 7 :%d",user);
+
+         else
+
+         printf("this is Not valid Nuber for Multiply by 7");
+    
+
+      int i;
+
+      for (i = 0; i < 50; i++)
+
+         if (i % 2 == 0) {
+
+               printf("%d",i);
+
+         }
+         
+         else 
+         {
+            printf("this is not odd number");
+         }
+         
+    
+// pattern code
+
+         char i = '*'; 
+
+         for (i=1; i<= 3; i++)
+
+        {
+          printf("%c",i);
+        }
+
+         for (i=3; i<= 6; i++)
+         {
+          printf("%c",i);
+         }
+         for (i=6; i<= 9; i++)
+         {
+          printf("%c",i);
+
+         }
+         for (i=9; i<= 12; i++)
+         {
+          printf("%c",i);
+
+         }
+        
+
+*/
+
+
+
+
+
 
 }
